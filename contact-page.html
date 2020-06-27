@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- required meta tags for bootstrap-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- required CSS link for bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="hobby-styles.css">
+</head>
+
+
+<body>
+<div class="container-fluid">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark style=" background-color: rgb(18, 31, 31)"">
+        <a class="navbar-brand" href="#">
+            <img src="logo.jpg" width="30" height="30"
+                alt="The logo of Tim Norwood Theatre, a capitalised TN on a white background.">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="projects-page.html">Projects</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="bio-page.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact-page.html">Contact Us</a>
+                </li>
+               
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+
+    <h3>Contact form</h3>
+    To contact us, please fill in the form below.
+    <br><br>
+    <div class="row">
+        <div class="col-sm-6">
+    <form action="/contactus.php" method="post">
+        <fieldset>
+            Name:
+            <input type="text">
+            <br><br>
+            Email:
+            <input type="text">
+            <br>
+            <br>
+            Subject:
+            <input type="text">
+            <br>
+            <br>
+            <textarea name="email content"" rows=" 5" cols="40" Your email>
+            </textarea>
+            <input type="submit">
+            <input type="reset">
+            <br><br><br>
+        </fieldset>
+
+    </form>
+
+    <h3>Mailing list</h3>
+    To sign up to our mailing list, please fill in this form:
+    <br><br>
+    <form action="/backend.php" method="post">
+        <fieldset>
+            Given name:
+            <input type="text">
+            <br><br>
+            Family name:
+            <input type="text">
+            <br><br>
+            Email:
+            <input type="text">
+            <br>
+            <br>
+            Area:
+            <br>
+            <select name="Area">
+                <option value="midlands">Midlands</option>
+                <option value="northeast">North East</option>
+                <option value="northwest">North West</option>
+                <option value="southeast">South East</option>
+                <option value="southwest">South West</option>
+                <option value="yorkshire">Yorkshire</option>
+                <option value="northernireland">Northern Ireland</option>
+                <option value="scotland">Scotland</option>
+                <option value="wales">Wales</option>
+                <option value="europe">Europe</option>
+                <option value="other">Rest of the world</option>
+            </select>
+            <br><br>
+            <input type="checkbox" required name="GDPR" value="GDPRconsent">
+            I agree to my personal data being stored and used to receive emails from Tim Norwood
+            Theatre about shows, events, educational and employment opportunities, fundraising and
+            other news.
+            </input>
+            <br>
+            <br>
+            <input type="submit">
+            <input type="reset">
+            <br><br><br>
+        </fieldset>
+
+    </form>
+</div>
+    <div class="col-sm-6 d-flex align-items-center">
+        <img src="freedom-img.jpg" class="img" alt="A photo of a man in a white t-shirt and trousers. He is wearing a pair of colourful sunglasses, and colourful feathers are stuck to the front of his t-shirt.">
+    </div>
+
+</div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- required meta tags for bootstrap-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- required CSS link for bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="hobby-styles.css">
+
+    <title>Tim Norwood Theatre</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <!-- container for all the content-->
+        <!-- <div class="container-fluid">               container for navbar -->
+        <div>
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark style=" background-color: rgb(18, 31, 31)"">
+                <a class="navbar-brand" href="#">
+                    <img src="logo.jpg" width="30" height="30"
+                        alt="The logo of Tim Norwood Theatre, a capitalised TN on a white background.">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects-page.html">Projects</a>
+                        </li>
+        
+                        <li class="nav-item">
+                            <a class="nav-link" href="bio-page.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact-page.html">Contact Us</a>
+                        </li>
+                       
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+        <!-- </div> navbar div end -->
+        <br>
+
+        <div class="row">
+            <!--row for main content & twitter embed columns-->
+
+            <div class="col-sm-9">
+                <!--Main content column-->
+                <div class="col">
+                    <h1 class="d-flex justify-content-center">Tim Norwood Theatre</h1>
+                    <br>
+                    <div class="row d-flex justify-content-center">
+                        <!-- Rows for centering carousel -->
+                        <div class="col-5">
+                            <div class="col" id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                </ol>
+
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100" src="AOTM-img.jpg"
+                                            alt="A picture of a man in a white t-shirt looking to the right, in front of blurred orange lights.">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <p class="vistext">Photo: Joseph Samuel Priestley</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="NYKOT-img.jpg"
+                                            alt="A picture of a man sitting in a chair and playing the ukulele.">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <p>Photo: Kala Heatherson</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="IOKTBN-img.jpg"
+                                            alt="A picture of a topless man sitting in a chair and holding an e-reader.">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <p>Photo: Graeme Braidwood at PILOT Nights</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="col">
+                        <h3>About</h3>
+                        <b>Tim Norwood is</b> an emerging theatre-maker from Sheffield. He&#39;s queer, disabled,
+                        and happily mining them both for
+                        material.
+                        He shares untold and misunderstood stories with audiences to inspire compassion for people
+                        that society
+                        doesn&#39;t really <i>GET</i>, like living on Death Row, or with depression or PTSD.
+                        He’s been supported and mentored by Theatre Delicatessen Sheffield, Third Angel, and Forced
+                        Entertainment.
+                    </div>
+                    <br>
+                    <div class="col">
+                        <h3>Latest work</h3>
+                        As part of the Sheffield Theatres Bank Writers' Group, Tim wrote and performed a short play for
+                        <i>Come to Where I Am</i> with <u>Paines Plough</u>. Check out the rest of the plays too!
+                        <br>
+                        <br>
+                        <div class="d-flex justify-content-center">
+                            <iframe width="420" height="315"
+                                src="https://www.youtube.com/embed/sN_Da_cApfg?t=59m0s"></iframe>
+                        </div>
+                        <br>
+                    </div>
+                    <div class="col">
+                        <h3>Mailing list</h3>
+                        To sign up to our mailing list, please fill in this form:
+                        <br><br>
+                        <form action="/backend.php" method="post">
+                            <fieldset>
+                                Given name:
+                                <input type="text">
+                                <br><br>
+                                Family name:
+                                <input type="text">
+                                <br><br>
+                                Email:
+                                <input type="text">
+                                <br>
+                                <br>
+                                Area:
+                                <br>
+                                <select name="Area">
+                                    <option value="midlands">Midlands</option>
+                                    <option value="northeast">North East</option>
+                                    <option value="northwest">North West</option>
+                                    <option value="southeast">South East</option>
+                                    <option value="southwest">South West</option>
+                                    <option value="yorkshire">Yorkshire</option>
+                                    <option value="northernireland">Northern Ireland</option>
+                                    <option value="scotland">Scotland</option>
+                                    <option value="wales">Wales</option>
+                                    <option value="europe">Europe</option>
+                                    <option value="other">Rest of the world</option>
+                                </select>
+                                <br><br>
+                                <input type="checkbox" required name="GDPR" value="GDPRconsent">
+                                I agree to my personal data being stored and used to receive emails from Tim Norwood
+                                Theatre about shows, events, educational and employment opportunities, fundraising and
+                                other news.
+                                </input>
+                                <br>
+                                <br>
+                                <input type="submit">
+                                <input type="reset">
+                                <br><br><br>
+                            </fieldset>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!--Twitter embed column-->
+            <div class="col-sm-3">
+                <a class="twitter-timeline" data-height="1000" data-theme="dark"
+                    href="https://twitter.com/tmnrwd?ref_src=twsrc%5Etfw">Tweets by tmnrwd</a>
+                <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
