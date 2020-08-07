@@ -1,16 +1,15 @@
 body {
     padding-top: 52px;
+    background-color: rgb(18, 31, 31);
 }
 
 .container
 {
-    background-color: rgb(18, 31, 31);
     color: antiquewhite;
 }
 
 .container-fluid
 {
-    background-color: rgb(18, 31, 31);
     color: antiquewhite;
 }
 
@@ -20,12 +19,6 @@ body {
     align-content: center;
     text-align: center;
 }
-
-.col-sm-8
-{
-    background-color: rgb(18, 31, 31);
-}
-
 
 .navbar
 {
