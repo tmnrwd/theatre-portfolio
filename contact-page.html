@@ -47,35 +47,35 @@
             </form>
         </div>
     </nav>
-
-
-    <h3>Contact form</h3>
-    To contact us, please fill in the form below.
-    <br><br>
-    <div class="row">
-        <div class="col-sm-6">
-    <form action="/contactus.php" method="post">
-        <fieldset>
-            Name:
-            <input type="text">
-            <br><br>
-            Email:
-            <input type="text">
-            <br>
-            <br>
-            Subject:
-            <input type="text">
-            <br>
-            <br>
-            <textarea name="email content"" rows=" 5" cols="40" Your email>
-            </textarea>
-            <input type="submit">
-            <input type="reset">
-            <br><br><br>
-        </fieldset>
-
-    </form>
-
+    
+    <div class="container-fluid">
+        <h1>Contact</h1>
+        <p>Please use this form to get in touch - once you've contacted us, we'll reply through standard email, so you won't need to use the form again.</p>
+        
+        <form
+        action="https://formspree.io/xrgydzbp"
+        method="POST"
+      >
+        <label>
+          Your email:
+          <input type="text" name="_replyto">
+        </label>
+        <br>
+        <label>
+          Email subject:
+          <textarea name="subject"></textarea>
+        </label>
+        <br>
+        <label>
+          Your message:
+          <textarea name="message"></textarea>
+        </label>
+      
+        <!-- your other form fields go here -->
+      
+        <button type="submit">Send</button>
+      </form>
+<!--
     <h3>Mailing list</h3>
     To sign up to our mailing list, please fill in this form:
     <br><br>
@@ -118,7 +118,7 @@
             <input type="reset">
             <br><br><br>
         </fieldset>
-
+    -->
     </form>
 </div>
     <div class="col-sm-6">
