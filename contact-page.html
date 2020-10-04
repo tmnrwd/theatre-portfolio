@@ -9,13 +9,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="hobby-styles.css">
+    <title>Tim Norwood Theatre</title>
 </head>
 
 
 <body>
 <div class="container-fluid">
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark style=" background-color: rgb(18, 31, 31)"">
-        <a class="navbar-brand" href="#">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark container-fluid">
+        <a class="navbar-brand" href="index.html">
             <img src="logo.jpg" width="30" height="30"
                 alt="The logo of Tim Norwood Theatre, a capitalised TN on a white background.">
         </a>
@@ -26,7 +27,7 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
@@ -36,45 +37,45 @@
                 <li class="nav-item">
                     <a class="nav-link" href="bio-page.html">About</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="contact-page.html">Contact Us</a>
                 </li>
                
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
+            
         </div>
     </nav>
     
-    <div class="container-fluid">
+    <div class="row">
+    <div class="col-sm-8">
         <h1>Contact</h1>
-        <p>Please use this form to get in touch - once you've contacted us, we'll reply through standard email, so you won't need to use the form again.</p>
+        <p>Please use this form to get in touch. 
+            Once you've contacted us, we'll reply through standard email, so you won't need to use the form again.</p>
         
         <form
         action="https://formspree.io/xrgydzbp"
         method="POST"
       >
         <label>
-          Your email:
-          <input type="text" name="_replyto">
+          Your email address:<br>
+          <input type="text" name="_replyto" size="30">
         </label>
         <br>
         <label>
-          Email subject:
-          <textarea name="subject"></textarea>
+          Email subject:<br>
+          <textarea name="subject" rows="1" cols="33"></textarea>
         </label>
         <br>
         <label>
-          Your message:
-          <textarea name="message"></textarea>
+          Your message:<br>
+          <textarea name="message" rows="5" cols="60"></textarea>
         </label>
       
         <!-- your other form fields go here -->
-      
+      <br>
         <button type="submit">Send</button>
       </form>
+      <br>
 <!--
     <h3>Mailing list</h3>
     To sign up to our mailing list, please fill in this form:
@@ -118,15 +119,16 @@
             <input type="reset">
             <br><br><br>
         </fieldset>
-    -->
+    
     </form>
+-->
 </div>
-    <div class="col-sm-6">
+    <div class="col-sm-4">
         <img src="freedom-img.jpg" class="img" alt="A photo of a man in a white t-shirt and trousers. He is wearing a pair of colourful sunglasses, and colourful feathers are stuck to the front of his t-shirt.">
     </div>
 
 </div>
-
+</div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
